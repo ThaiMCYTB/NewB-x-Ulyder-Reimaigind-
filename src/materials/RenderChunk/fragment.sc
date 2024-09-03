@@ -28,6 +28,8 @@ void main() {
     #endif
 
     color = v_color0;
+diffuse.rgb *= 1.0 - SHADOW_INTENTSITY*smoothstep(0.875,0.860, pow(lm.y,2.0));
+
   #endif
 
   vec3 glow = nlGlow(s_MatTexture, v_texcoord0, v_extra.a);
