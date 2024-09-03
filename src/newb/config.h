@@ -132,7 +132,7 @@
 #define NL_CLOUD2_SCALE 0.03
 #define NL_CLOUD2_SHAPE 0.63
 #define NL_CLOUD2_DENSITY 999.9
-#define NL_CLOUD2_VELOCIY 1.2
+#define NL_CLOUD2_VELOCITY 1.2
 //#define NL_CLOUD2_MULTILAYER
 
 /* Aurora settings */
