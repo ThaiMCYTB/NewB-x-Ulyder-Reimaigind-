@@ -128,7 +128,7 @@
 /* Rounded cloud Settings */
 #define NL_CLOUD2_THICKNESS 3.7
 #define NL_CLOUD2_RAIN_THICKNESS 3.7
-#define NL_CLOUD2_STEPS 5
+#define NL_CLOUD2_STEPS 11
 #define NL_CLOUD2_SCALE 0.03
 #define NL_CLOUD2_SHAPE 0.70
 #define NL_CLOUD2_DENSITY 999.9
