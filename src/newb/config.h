@@ -61,8 +61,8 @@
 #define NL_END_TORCH_COL        vec3(1.0,0.52,0.18)
 
 /* Fog */
-#define NL_FOG_TYPE 2                // 0:no fog, 1:vanilla, 2:smoother vanilla
-#define NL_MIST_DENSITY 3.0      // 0.0 no mist ~ 1.0 misty
+#define NL_FOG_TYPE 1                // 0:no fog, 1:vanilla, 2:smoother vanilla
+#define NL_MIST_DENSITY 0.7      // 0.0 no mist ~ 1.0 misty
 #define NL_RAIN_MIST_OPACITY 1.0 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
 
 /* Sky colors - zenith=top, horizon=bottom */
@@ -95,9 +95,9 @@
 //#define NL_EXTRA_PLANTS_WAVE // [toggle] !dont use! wave using texture coords (1.21.0 vanilla 2048x1024)
 
 /* Water */
-#define NL_WATER_TRANSPARENCY 0.7 // 0.0 transparent ~ 1.0 normal
-#define NL_WATER_BUMP 0.134        // 0.001 plain ~ 0.2 bumpy water
-#define NL_WATER_TEX_OPACITY 1.4  // 0.0 plain water ~ 1.0 vanilla water texture
+#define NL_WATER_TRANSPARENCY 0.8 // 0.0 transparent ~ 1.0 normal
+#define NL_WATER_BUMP 0.000        // 0.001 plain ~ 0.2 bumpy water
+#define NL_WATER_TEX_OPACITY 1.0  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
 #define NL_WATER_FOG_FADE         // [toggle] fog fade for water
 #define NL_WATER_CLOUD_REFLECTION2 // [toggle] simple clouds/aurora reflection
@@ -130,7 +130,7 @@
 #define NL_CLOUD2_RAIN_THICKNESS 3.7
 #define NL_CLOUD2_STEPS 5
 #define NL_CLOUD2_SCALE 0.03
-#define NL_CLOUD2_SHAPE 0.63
+#define NL_CLOUD2_SHAPE 0.70
 #define NL_CLOUD2_DENSITY 999.9
 #define NL_CLOUD2_VELOCITY 1.2
 //#define NL_CLOUD2_MULTILAYER
