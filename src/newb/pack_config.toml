@@ -1,5 +1,5 @@
-name = "Newb X Legacy"
-version = [0, 15, 0]
+name = "NewB x Ulyder(Reimaigind)"
+version = [0, 1, 0]
 min_supported_mc_version = [1, 21, 20]
 description = '''
 §c%w
@@ -7,7 +7,7 @@ description = '''
 %v
 §3https://devendrn.github.io/newb-shader/
 ''' # %w = patch warning, %v = version
-authors = ["devendrn"]
+authors = ["Thái MC"]
 url = "https://devendrn.github.io/newb-shader/"
 uuid = "95f774cf-4afa-73e7-a21a-72146307b1d2" # Use https://www.uuidgenerator.net/version4
 materials = ["Sky", "LegacyCubemap", "Clouds", "EndSky", "SunMoon", "RenderChunk", "Actor"]
