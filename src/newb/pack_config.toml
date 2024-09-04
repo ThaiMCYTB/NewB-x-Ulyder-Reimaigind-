@@ -3,9 +3,9 @@ version = [0, 1, 0]
 min_supported_mc_version = [1, 21, 20]
 description = '''
 §c%w
-§7- An enchanced vanilla shader for Minecraft!
+§7- Shaders are only used for Minecraft that support RenderDragon !
 %v
-§3https://devendrn.github.io/newb-shader/
+§3https://https:/beacons.ai//thaimcytb/
 ''' # %w = patch warning, %v = version
 authors = ["Thai MC"]
 url = "https://devendrn.github.io/newb-shader/"
