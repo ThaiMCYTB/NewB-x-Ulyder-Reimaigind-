@@ -94,7 +94,7 @@ vec4 renderClouds(vec3 vDir, vec3 vPos, float rain, float time, vec3 fogCol, vec
     pos += deltaP;
   }
   //d.x *= vDir.y*vDir.y; 
-  d.x *= smoothstep(1.24, 1.26, d.x);
+  d.x *= smoothstep(0.79, 0.84, d.x);
   d.x = d.x / ((float(NL_CLOUD2_STEPS)/NL_CLOUD2_DENSITY) + d.x);
   
   if (vPos.y > 0.0) { // view from bottom
@@ -103,7 +103,7 @@ vec4 renderClouds(vec3 vDir, vec3 vPos, float rain, float time, vec3 fogCol, vec
 
   d.y = 1.0 - 0.7*d.y*d.y;
  
-  vec4 col = vec4(0.6*skyCol, d.x);
+  vec4 col = vec4(0.8*skyCol, d.x);
   col.rgb += (vec3(0.03,0.05,0.05) + 0.8*fogCol)*d.y;
   col.rgb *= 1.0 - 0.5*rain;
 
