@@ -66,7 +66,7 @@
 #define NL_RAIN_MIST_OPACITY 1.0 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
 
 /* Sky colors - zenith=top, horizon=bottom */
-#define NL_DAY_ZENITH_COL    vec3(0.34, 0.69, 1)
+#define NL_DAY_ZENITH_COL    vec3(0.28, 0.46, 1)
 #define NL_DAY_HORIZON_COL   vec3(0.99, 0.99, 0.95)
 #define NL_NIGHT_ZENITH_COL  vec3(0.01, 0.01, 0.03)
 #define NL_NIGHT_HORIZON_COL vec3(0.06, 0.21, 0.76)
@@ -76,7 +76,7 @@
 #define NL_END_HORIZON_COL   vec3(0.45, 0.14, 1)
 #define NL_DAWN_ZENITH_COL   vec3(0.01, 0.09, 0.2)
 #define NL_DAWN_HORIZON_COL  vec3(1.3, 0.37, 0.3)
-#define NL_DAWN_EDGE_COL     vec3(1.0, 0.52, 0.4)
+#define NL_DAWN_EDGE_COL     vec3(1.0, 0.64, 0.4)
 
 /* Rainbow */
 //#define NL_RAINBOW         // [toggle] enable rainbow in sky
@@ -126,8 +126,8 @@
 #define NL_CLOUD1_OPACITY 0.9              // 0.0 invisible ~ 1.0 opaque
 
 /* Rounded cloud Settings */
-#define NL_CLOUD2_THICKNESS 3.7
-#define NL_CLOUD2_RAIN_THICKNESS 3.7
+#define NL_CLOUD2_THICKNESS 3.3
+#define NL_CLOUD2_RAIN_THICKNESS 3.3
 #define NL_CLOUD2_STEPS 11
 #define NL_CLOUD2_SCALE 0.03
 #define NL_CLOUD2_SHAPE 0.70
