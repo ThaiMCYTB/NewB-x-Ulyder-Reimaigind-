@@ -38,7 +38,7 @@
 
 /* Terrain lighting */
 #define NL_SUN_INTENSITY 1.568   // 0.5 weak ~ 5.0 bright
-#define NL_TORCH_INTENSITY 3.0  // 0.5 weak ~ 3.0 bright
+#define NL_TORCH_INTENSITY 1.5  // 0.5 weak ~ 3.0 bright
 #define NL_NIGHT_BRIGHTNESS 1.4 // 0.0 dark ~ 2.0 bright
 #define NL_CAVE_BRIGHTNESS  1.2 // 0.0 dark ~ 2.0 bright
 #define NL_SHADOW_INTENSITY 2.0 // 0.0 no shadow ~ 1.0 strong shadow
