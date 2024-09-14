@@ -66,7 +66,7 @@
 #define NL_RAIN_MIST_OPACITY 1.0 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
 
 /* Sky colors - zenith=top, horizon=bottom */
-#define NL_DAY_ZENITH_COL    vec3(0.28, 0.46, 1)
+#define NL_DAY_ZENITH_COL    vec3(0.16, 0.34, 1)
 #define NL_DAY_HORIZON_COL   vec3(0.99, 0.99, 0.95)
 #define NL_NIGHT_ZENITH_COL  vec3(0.01, 0.01, 0.03)
 #define NL_NIGHT_HORIZON_COL vec3(0.06, 0.21, 0.76)
